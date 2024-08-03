@@ -10,6 +10,7 @@
 
 .services__container {
 	position: relative;
+	padding: 0 15px;
 }
 
 .services__title-line {
@@ -69,7 +70,7 @@
 	width: 100%;
 }
 
-.paragraph-new {
+.services__text-more {
 	display: none;
 }
 
@@ -84,6 +85,7 @@
 		width: 360px;
 		height: 208px;
 		margin: 0 0 0 48px;
+		padding: 0 24px 0 0;
 	}
 
 	.services__article {
@@ -93,6 +95,14 @@
 	.services__text span {
 		display: block;
 	}
+
+	.services__text-block {
+		padding: 0 24px;
+	}
+}
+
+.services__text-block {
+	padding: 0 15px;
 }
 
 @media (min-width: 1120px) {
@@ -103,7 +113,7 @@
 		display: none;
 	}
 
-	.paragraph-new {
+	.services__text-more {
 		display: block;
 	}
 
@@ -130,6 +140,10 @@
 
 	.services__title-line ul {
 		display: flex;
+	}
+
+	.services__text-block {
+		padding: 0 34px;
 	}
 
 	.services__list {
