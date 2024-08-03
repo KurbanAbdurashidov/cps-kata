@@ -225,6 +225,10 @@ body {
 	overflow: hidden;
 }
 
+a {
+	color: #1b1c21;
+}
+
 a:visited {
 	color: #1b1c21;
 }
