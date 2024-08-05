@@ -43,6 +43,11 @@
 	align-items: center;
 	white-space: nowrap;
 	height: 40px;
+	transition: 0.1s ease-in;
+}
+
+.services__list-items:hover {
+	opacity: 0.5;
 }
 
 .services__text {
@@ -76,6 +81,14 @@
 
 .services__title-line ul {
 	display: none;
+}
+
+.services__title-line ul > a {
+	transition: 0.1s ease-in;
+}
+
+.services__title-line ul > a:hover {
+	opacity: 0.5;
 }
 
 @media (min-width: 768px) {
